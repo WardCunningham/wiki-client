@@ -260,14 +260,14 @@ p.readout {
 .footer {
   clear: both;
   margin-bottom: 1em;
-  padding-bottom: 500px;
+  /*padding-bottom: 500px;*/
 }
 
 .page {
   float: left;    /* inline-block preferred? */
   margin: 8px;
   /* padding: 0 31px; */
-  width: 490px; 
+  width: 490px;
   background-color: white;
   height: 100%;
   overflow: auto;
@@ -382,4 +382,12 @@ textarea {
 .ghost {
   opacity: 0.6;
   border-color: #eef2fe;
+}
+
+.handles {
+  text-align: right;
+}
+
+.pinned .pin-page {
+  color: yellowgreen
 }
